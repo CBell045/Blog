@@ -3,7 +3,8 @@ const siteMetadata = {
   title: 'Write of Christ',
   author: 'Chad Bell',
   headerTitle: 'Write of Christ',
-  description: 'We talk of Christ, we rejoice in Christ, we preach of Christ, we prophesy of Christ, and we write according to our prophecies.',
+  description:
+    'We talk of Christ, we rejoice in Christ, we preach of Christ, we prophesy of Christ, and we write according to our prophecies.',
   language: 'en-us',
   siteUrl: 'https://www.timlrx.com',
   siteRepo: 'https://github.com/timlrx/timlrx.com',
