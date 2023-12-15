@@ -14,19 +14,26 @@ export default function Home({ posts }) {
           <h1 className="pb-6 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
             We Write of Christ
           </h1>
-          <blockquote className="p-4 my-4 border-s-4 border-gray-300 bg-gray-50 dark:border-gray-500 dark:bg-gray-800">
-            <h2 className="text-xl italic font-medium leading-relaxed text-gray-700 dark:text-white">
-              {'"And we talk of Christ, we rejoice in Christ, we preach of Christ, we prophesy of Christ, and we write according to our prophecies, that our children may know to what source they may look for a remission of their sins." '} 
-              <Link href="https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/25.26?lang=eng#p26" className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">2 Nephi 25:26</Link>
+          <blockquote className="my-4 border-s-4 border-gray-300 bg-gray-50 p-4 dark:border-gray-500 dark:bg-gray-800">
+            <h2 className="text-xl font-medium italic leading-relaxed text-gray-700 dark:text-white">
+              {
+                '"And we talk of Christ, we rejoice in Christ, we preach of Christ, we prophesy of Christ, and we write according to our prophecies, that our children may know to what source they may look for a remission of their sins." '
+              }
+              <Link
+                href="https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/25.26?lang=eng#p26"
+                className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+              >
+                2 Nephi 25:26
+              </Link>
             </h2>
           </blockquote>
           <h2 className="prose text-lg text-gray-600 dark:text-gray-400">
             {`Welcome to our blog! Learn more `}
-            <Link href='/about'>about us</Link>
+            <Link href="/about">about us</Link>
             {`, browse by `}
-            <Link href='/tags'>tag</Link>
+            <Link href="/tags">tag</Link>
             {`, or check our some of our `}
-            <Link href='/#latest'>latest</Link>
+            <Link href="/#latest">latest</Link>
             {` posts below.`}
           </h2>
         </div>
@@ -36,7 +43,10 @@ export default function Home({ posts }) {
       </div>
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pb-8 pt-6 md:space-y-5">
-          <h1 id='latest' className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
+          <h1
+            id="latest"
+            className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14"
+          >
             Latest Posts
           </h1>
         </div>
