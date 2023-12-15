@@ -1,18 +1,19 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Quasilinear Musings',
-  author: 'Timothy Lin',
-  headerTitle: 'Quasilinear Musings',
-  description: 'Thoughts from a wandering mind',
+  title: 'Write of Christ',
+  author: 'Chad Bell',
+  headerTitle: 'Write of Christ',
+  description: 'We talk of Christ, we rejoice in Christ, we preach of Christ, we prophesy of Christ, and we write according to our prophecies.',
   language: 'en-us',
   siteUrl: 'https://www.timlrx.com',
   siteRepo: 'https://github.com/timlrx/timlrx.com',
   image: '/static/img/avatar.png',
   socialBanner: '/static/img/twitter-card.png',
-  email: 'timothy.lin@alumni.ubc.ca',
-  github: 'https://github.com/timlrx',
-  twitter: 'https://twitter.com/timlrxx',
-  linkedin: 'https://www.linkedin.com/in/timlrx',
+  email: 'chadbell045@gmail.com',
+  instagram: 'https://www.instagram.com/writeofchrist',
+  // github: 'https://github.com/timlrx',
+  // twitter: 'https://twitter.com/timlrxx',
+  // linkedin: 'https://www.linkedin.com/in/timlrx',
   locale: 'en-US',
   analytics: {
     googleAnalytics: {
